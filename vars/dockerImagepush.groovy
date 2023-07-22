@@ -9,3 +9,4 @@
      sh "docker image push ${hubUser}/${project}:${ImageTag}"
      sh "docker image push ${hubUser}/${project}:latest"   
  }
+

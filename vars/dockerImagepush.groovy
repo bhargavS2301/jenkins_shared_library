@@ -2,7 +2,7 @@
      withCredentials([usernamePassword(
        credentialsId: 'docker-cred',
        passwordVariable: 'pass', 
-       usernameVariable: 'user')]) {
+       usernameVariable: 'user')]) 
      )]) {
          sh "docker login -u '$USER' -p '$PASS'"
      }
